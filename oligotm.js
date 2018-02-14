@@ -1,7 +1,7 @@
 ﻿/**
  * @license
  * Copyright (c) 2017
- * Kazuki Nakamae
+ * Kazuki Nakamae(kazukinakamae@gmail.com)
  * All rights reserved.
  *
  * This file is part of the oligotm library.
