@@ -4,10 +4,10 @@
 **oligotm.js** is an open source JavaScript library for calculating Tm using Primer3 algorithm.
 
 ## Usage
-
-`git clone https://github.com/Kazuki-Nakamae/oligotmJS.git`
-`cd oligotmJS`
-
+```bash
+git clone https://github.com/Kazuki-Nakamae/oligotmJS.git;
+cd oligotmJS;
+```
 #### Run oligotm.js in a browser
 ```html
 <script src="./oligotm.js"></script>
