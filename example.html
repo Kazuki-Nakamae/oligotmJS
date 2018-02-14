@@ -1,0 +1,10 @@
+<script src="./oligotm.js"></script>
+
+<script>
+  var instance = new oligotm();
+  var Tmvalue = instance.oligotm("ATTTGCGCGAATGCAATCGG", 50, 50, 0, 0, 0, 0) // primer3 default setting
+  if ((typeof Tmvalue !== 'number') || (Math.floor(Tmvalue) > 72)) {
+      Tmvalue = -Infinity;
+  }
+  console.log(Tmvalue)
+</script>
