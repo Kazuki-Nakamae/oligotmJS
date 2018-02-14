@@ -1,10 +1,16 @@
 <script src="./oligotm.js"></script>
 
 <script>
-  var instance = new oligotm();
-  var Tmvalue = instance.oligotm("ATTTGCGCGAATGCAATCGG", 50, 50, 0, 0, 0, 0) // primer3 default setting
-  if ((typeof Tmvalue !== 'number') || (Math.floor(Tmvalue) > 72)) {
-      Tmvalue = -Infinity;
-  }
-  console.log(Tmvalue)
+    var instance = new oligotm();
+    /*
+    oligotm(Sequence,
+            DNA concentration,
+            Concentration of salt,
+            Salt concentration (mM),
+            Concentration of dNTPs (mM),
+            tm_method_type({ breslauer_auto: 0, santalucia_auto: 1 }),
+            salt_correction_type({ schildkraut: 0, santalucia: 1, owczarzy: 2 })
+    */
+    var Tmvalue = instance.oligotm("ATTTGCGCGAATGCAATCGG", 50, 50, 0, 0, 0, 0) // primer3 default setting
+    console.log(Tmvalue)
 </script>
